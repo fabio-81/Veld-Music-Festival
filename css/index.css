@@ -1,0 +1,13 @@
+body{
+    font-size: 1em;
+    font-family:Montserrat;
+
+}
+.navigation_container{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding: 10px;
+
+
+}
