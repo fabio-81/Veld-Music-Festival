@@ -23,3 +23,9 @@ body{
     width: 200px;
 
 }
+.nav-item a{
+    color: white;
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
