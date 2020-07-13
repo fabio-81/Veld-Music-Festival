@@ -8,6 +8,18 @@ body{
     align-items: center;
     background-color: black;
     padding: 10px;
+    justify-content: space-between;
 
+
+}
+.navigation_links{
+    display: flex;
+    padding: 10px;
+    background-color: black;
+    text-transform: uppercase;
+        
+}
+.logo{
+    width: 200px;
 
 }
