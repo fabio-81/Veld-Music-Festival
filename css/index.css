@@ -1,7 +1,7 @@
 body{
     font-size: 1em;
     font-family:Montserrat;
-
+    background-image: url(/img/festival2.jpeg);
 
 }
 .hero-banner-container{
@@ -55,9 +55,9 @@ body{
     font-weight: bold;
     text-decoration: none;
 }
-.main-page-body-container{
+/* .main-page-body-container{
     background-image: url(/img/festival2.jpeg);
-}
+} */
 .main-content-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
