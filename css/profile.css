@@ -1,3 +1,19 @@
 body{
     background-image: url(/img/dababy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.profile-hero-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.profile-image-container{
+    width: 25em;
+    height: 25em;
+
+}
+.profile-content-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
