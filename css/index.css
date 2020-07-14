@@ -11,6 +11,12 @@ body{
     height: 25em;
     background-size: cover;
 }
+.primary-main-content-heading{
+    color: white;
+}
+.main-content-paragraph{
+    color: white;
+}
 .navigation_container{
     display: flex;
     align-items: center;
