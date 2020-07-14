@@ -15,10 +15,13 @@ body{
 .primary-main-content-heading{
     color: white;
     font-family: cooper;
+    font-size: 3em;
 }
 .hero-banner-paragraph{
     color: white;
     font-weight: bold;
+    font-size: 1.5em;
+    
 }
 
 .navigation_container{
