@@ -6,14 +6,24 @@ body{
 .profile-hero-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px 0;
 }
 .profile-image-container{
-    width: 25em;
-    height: 25em;
+    /* width: 20em; */
+    height: 20em;
 
 }
 .profile-content-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    width: 90%;
+    margin: 0 auto;
+    grid-gap: 20px;
+}
+.hero-image-container{
+    /* width: 50em; */
+    height: 25em;
 }
