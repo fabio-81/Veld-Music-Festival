@@ -40,4 +40,16 @@ body{
 .main-content-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: grey;
+}
+.main-content-image{
+    width: 15em;
+    background-color: white;
+}
+.image-container{
+    width: 15em;
+    height: 15em;
+}
+.image-item{
+    height: 100%;
 }
