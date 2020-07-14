@@ -88,6 +88,10 @@ body{
     text-align: center;
     font-weight: bold;
 }
+.artist-name a{
+    text-decoration: none;
+    color: black;
+}
 .secondary-main-content-heading{
     background-color: black;
     color: white;
