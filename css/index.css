@@ -63,6 +63,7 @@ body{
 .main-content-image{
     width: 15em;
     background-color: white;
+    border-radius: 20px;
 }
 .image-container{
     width: 15em;
@@ -70,9 +71,17 @@ body{
 }
 .image-item{
     height: 100%;
+    border-radius: 20px;
 }
 .secondary-main-content-heading{
     background-color: black;
+    color: white;
+    text-align: center;
+}
+.footer-menu{
+    background-color: black;
+}
+.footer-paragraph{
     color: white;
     text-align: center;
 }
