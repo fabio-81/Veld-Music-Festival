@@ -14,9 +14,10 @@ body{
 .primary-main-content-heading{
     color: white;
 }
-.main-content-paragraph{
+.hero-banner-paragraph{
     color: white;
 }
+
 .navigation_container{
     display: flex;
     align-items: center;
@@ -72,6 +73,10 @@ body{
 .image-item{
     height: 100%;
     border-radius: 20px;
+}
+.artist-name{
+    text-align: center;
+    font-weight: bold;
 }
 .secondary-main-content-heading{
     background-color: black;
