@@ -41,6 +41,9 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: grey;
+    margin: 20px;
+    padding: 20px;
+    justify-items: center;
 }
 .main-content-image{
     width: 15em;
@@ -52,4 +55,9 @@ body{
 }
 .image-item{
     height: 100%;
+}
+.secondary-main-content-heading{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
