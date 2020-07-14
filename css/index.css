@@ -3,6 +3,14 @@ body{
     font-family:Montserrat;
 
 }
+.hero-banner-container{
+    background-image: url(/img/rock-guitar.jpeg);
+    width: 90%;
+    margin: 0 auto;
+    background-position: center;
+    height: 25em;
+    background-size: cover;
+}
 .navigation_container{
     display: flex;
     align-items: center;
@@ -41,7 +49,8 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: grey;
-    margin: 20px;
+    margin: 0 auto;
+    width: 90%;
     padding: 20px;
     justify-items: center;
 }
