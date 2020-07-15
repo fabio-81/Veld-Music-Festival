@@ -1,11 +1,11 @@
 body{
     font-size: 1em;
     font-family:Montserrat;
-    background-image: url(/img/festival2.jpeg);
+    background-image: url(../img/festival2.jpeg);
 
 }
 .hero-banner-container{
-    background-image: url(/img/rock-guitar.jpeg);
+    background-image: url(../img/rock-guitar.jpeg);
     width: 90%;
     margin: 0 auto;
     background-position: center;
