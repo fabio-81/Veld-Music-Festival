@@ -1,0 +1,32 @@
+.booking-form{
+    display: grid;
+    grid-template-columns: 200px 200px 100px 200px 100px 200px;
+}
+label{
+    grid-column: 1/2;
+}
+input{
+    grid-column: 2/3;
+}
+.button-package1 ,.button-package2,.button-package3,.button-package4{
+    grid-column: 4/5;
+    
+}
+.button-qty1,.button-qty2,.button-qty3,.button-qty4{
+    grid-column: 5/6;
+}
+.price1,.price2,.price3,.price4{
+    grid-column: 6/7;
+}
+.button-package1,.button-qty1,.price1{
+    grid-row: 1/2;
+}
+.button-package2,.button-qty2,.price2{
+    grid-row: 2/3;
+}
+.button-package3,.button-qty3,.price3{
+    grid-row: 3/4;
+}
+.button-package4,.button-qty4,.price4{
+    grid-row: 4/5;
+}
