@@ -3,18 +3,22 @@ body{
 }
 .booking-form{
     display: grid;
-    grid-template-columns: 200px 1fr 100px 200px 100px 200px 200px;
+    grid-template-columns: 200px 1fr 100px 200px 100px 150px 100px;
     width: 90%;
     margin: 0 auto;
+    grid-gap: 10px;
+    font-weight: 600;
 }
 label{
     grid-column: 1/2;
     background-color: white;
+    padding: 10px;
 }
 input{
     grid-column: 2/3;
 }
-.button-package1 ,.button-package2,.button-package3,.button-package4,.package-label{
+
+.button-package1 ,.button-package2,.button-package3,.button-package4,.package-label,.booking-button{
     grid-column: 4/5;
     background-color: #C4B8B8;
     
@@ -44,4 +48,22 @@ input{
 .button-package4,.button-qty4,.price4,.select4{
     grid-row: 5/6;
 }
-
+.booking-button{
+background-color: white;
+}
+.booking-main-heading{
+    text-align: center;
+}
+.select1,.select2,.select3,.select4{
+    border-radius: 20px;
+    border: none;
+    color: red;
+    font-weight: 600;
+    font-size: 1em;
+}
+.price1,.price2,.price3,.price4,.price-label,.qty-label{
+    text-align: center;
+}
+.package-label,.price-label{
+    background-color: white;
+}
