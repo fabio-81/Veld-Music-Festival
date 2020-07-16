@@ -1,13 +1,21 @@
 body{
-    background-image: url(../img/concert.jpeg);
+    background-image:url(../img/gradient.png), url(../img/concert.jpeg);
+}
+.booking-main-heading{
+    margin: 50px;
+    font-size: 2.5em;
+    text-align: center;
+    color: black;
+    font-family: cooper;
 }
 .booking-form{
     display: grid;
-    grid-template-columns: 200px 1fr 100px 200px 100px 150px 100px;
+    grid-template-columns: 0.5fr 400px 100px 0.5fr 50px 100px 100px;
     width: 90%;
     margin: 0 auto;
     grid-gap: 10px;
     font-weight: 600;
+
 }
 label{
     grid-column: 1/2;
@@ -16,6 +24,7 @@ label{
 }
 input{
     grid-column: 2/3;
+    
 }
 
 .button-package1 ,.button-package2,.button-package3,.button-package4,.package-label,.booking-button{
@@ -51,9 +60,7 @@ input{
 .booking-button{
 background-color: white;
 }
-.booking-main-heading{
-    text-align: center;
-}
+
 .select1,.select2,.select3,.select4{
     border-radius: 20px;
     border: none;
@@ -67,3 +74,4 @@ background-color: white;
 .package-label,.price-label{
     background-color: white;
 }
+

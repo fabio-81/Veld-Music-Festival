@@ -131,6 +131,7 @@ body{
 }
 .footer-menu{
     background-color: black;
+    font-weight: bold;
 }
 .footer-paragraph{
     color: white;
