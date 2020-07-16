@@ -1,37 +1,47 @@
+body{
+    background-image: url(../img/concert.jpeg);
+}
 .booking-form{
     display: grid;
-    grid-template-columns: 200px 200px 100px 200px 100px 200px;
+    grid-template-columns: 200px 1fr 100px 200px 100px 200px 200px;
     width: 90%;
     margin: 0 auto;
 }
 label{
     grid-column: 1/2;
+    background-color: white;
 }
 input{
     grid-column: 2/3;
 }
-.button-package1 ,.button-package2,.button-package3,.button-package4{
+.button-package1 ,.button-package2,.button-package3,.button-package4,.package-label{
     grid-column: 4/5;
     background-color: #C4B8B8;
     
 }
-.button-qty1,.button-qty2,.button-qty3,.button-qty4{
+.button-qty1,.button-qty2,.button-qty3,.button-qty4,.qty-label{
     grid-column: 5/6;
 }
-.price1,.price2,.price3,.price4{
+.price1,.price2,.price3,.price4,.price-label{
     grid-column: 6/7;
     background-color: #FFD700;
 }
-.button-package1,.button-qty1,.price1{
+.select1,.select2,.select3,.select4 {
+    grid-column: 7/8;
+}
+.package-label,.qty-label,.price-label{
     grid-row: 1/2;
 }
-.button-package2,.button-qty2,.price2{
+.button-package1,.button-qty1,.price1,.select1{
     grid-row: 2/3;
 }
-.button-package3,.button-qty3,.price3{
+.button-package2,.button-qty2,.price2,.select2{
     grid-row: 3/4;
 }
-.button-package4,.button-qty4,.price4{
+.button-package3,.button-qty3,.price3,.select3{
     grid-row: 4/5;
+}
+.button-package4,.button-qty4,.price4,.select4{
+    grid-row: 5/6;
 }
 
