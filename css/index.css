@@ -1,7 +1,7 @@
 body{
     font-size: 1em;
     font-family:Montserrat;
-    background-image:url(/img/gradient.png) ,url(/img/festival2.jpeg);
+    background-image:url(./img/gradient.png) ,url(./img/festival2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
