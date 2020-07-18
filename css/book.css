@@ -1,5 +1,11 @@
+html{
+    height: 100%;
+}
 body{
     background-image:url(../img/gradient.png), url(../img/concert.jpeg);
+    /* display: flex;
+    flex-direction: column;
+    min-height: 100%; */
 }
 .booking-main-heading{
     margin: 50px;
@@ -15,6 +21,7 @@ body{
     margin: 0 auto;
     grid-gap: 10px;
     font-weight: 600;
+    flex: 1;
 
 }
 label{
@@ -24,6 +31,7 @@ label{
 }
 input{
     grid-column: 2/3;
+    border: none;
     
 }
 
@@ -59,6 +67,8 @@ input{
 }
 .booking-button{
 background-color: white;
+margin-bottom: 40px;
+
 }
 
 .select1,.select2,.select3,.select4{
