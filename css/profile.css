@@ -1,6 +1,6 @@
 body{
     
-    background-image:url(../img/gradient.png), url(../img/dababy.jpg);
+    background-image:url(./img/gradient.png), url(./img/dababy.jpg);
     /* background-repeat: no-repeat;
     background-size: cover;
     display: flex;
