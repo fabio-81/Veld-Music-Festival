@@ -2,7 +2,7 @@ html{
     height: 100%;
 }
 body{
-    background-image:url(/img/gradient.png), url(/img/concert.jpeg);
+    background-image:url(./img/gradient.png), url(./img/concert.jpeg);
     /* display: flex;
     flex-direction: column;
     min-height: 100%; */
