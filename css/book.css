@@ -6,36 +6,42 @@ body{
     /* display: flex;
     flex-direction: column;
     min-height: 100%; */
+    background-size: auto;
 }
 .booking-main-heading{
     margin: 50px;
-    font-size: 2.5em;
+    font-size: 2em;
     text-align: center;
     color: black;
     font-family: cooper;
 }
 .booking-form{
     display: grid;
-    grid-template-columns: 0.5fr 400px 100px 0.5fr 50px 100px 100px;
+    grid-template-columns:1fr;
     width: 90%;
     margin: 0 auto;
     grid-gap: 10px;
     font-weight: 600;
+    margin-bottom: 1.5em;
+    max-width: 30em;
     flex: 1;
 
 }
+.booking-form label, .booking-form input, .booking-form select{
+    padding: 0.7em;
+}
 label{
-    grid-column: 1/2;
+    /* grid-column: 1/2; */
     background-color: white;
-    padding: 10px;
+    
 }
 input{
-    grid-column: 2/3;
+    /* grid-column: 2/3; */
     border: none;
     
 }
 
-.button-package1 ,.button-package2,.button-package3,.button-package4,.package-label,.booking-button{
+/* .button-package1 ,.button-package2,.button-package3,.button-package4,.package-label,.booking-button{
     grid-column: 4/5;
     background-color: #C4B8B8;
     
@@ -64,13 +70,16 @@ input{
 }
 .button-package4,.button-qty4,.price4,.select4{
     grid-row: 5/6;
-}
+} */
 .booking-button{
 background-color: white;
 margin-bottom: 40px;
+padding: 0.7em;
+
+
 
 }
-
+/* 
 .select1,.select2,.select3,.select4{
     border-radius: 20px;
     border: none;
@@ -83,5 +92,35 @@ margin-bottom: 40px;
 }
 .package-label,.price-label{
     background-color: white;
-}
+} */
 
+form button {
+    background: lightgrey;
+    padding: 0.7em;
+    width: 100%;
+    border: 0;
+  }
+
+  @media screen and (min-width:768px){
+    .booking-form{
+        display: grid;
+        grid-template-columns:Auto 1fr;
+        max-width: 50em;
+  }
+  body{
+    background-size: cover;
+  }
+  .booking-main-heading{
+
+    font-size: 2.5em;
+
+}
+.booking-button{
+
+    grid-column: 2/3;
+    font-size: 1em;
+ 
+    
+    
+    }
+}
