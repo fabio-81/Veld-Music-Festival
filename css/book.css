@@ -18,7 +18,7 @@ body{
 .booking-form{
     display: grid;
     grid-template-columns:1fr;
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     grid-gap: 10px;
     font-weight: 600;
