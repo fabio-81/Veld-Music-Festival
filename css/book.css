@@ -42,7 +42,7 @@ input{
     border: none;
     
 }
-.booking-form select{
+.booking-form select optgroup{
     font-size: 1em;
 }
 
