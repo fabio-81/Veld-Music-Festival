@@ -40,9 +40,13 @@ label{
 input{
     /* grid-column: 2/3; */
     border: none;
+
+    
+}
+input[type="text"]{
     border-radius: none;
     -webkit-appearance: none;
-    
+
 }
 .booking-form select{
     font-size: 1em;
