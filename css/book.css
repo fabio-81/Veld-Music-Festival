@@ -41,6 +41,7 @@ input{
     /* grid-column: 2/3; */
     border: none;
     border-radius: none;
+    -webkit-appearance: none;
     
 }
 .booking-form select{
