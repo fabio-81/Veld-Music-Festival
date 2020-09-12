@@ -40,12 +40,13 @@ label{
 input{
     /* grid-column: 2/3; */
     border: none;
-
+    -webkit-appearance: none;
+    border-radius: none;
     
 }
 input[type="text"]{
-    -webkit-appearance: none;
-    border-radius: none;
+    /* -webkit-appearance: none;
+    border-radius: none; */
    
 
 }
